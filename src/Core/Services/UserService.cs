@@ -129,7 +129,9 @@ namespace Bit.Core.Services
             {
                 return false;
             }
-
+            
+            return true;
+            
             var tokenPremium = _tokenService.GetPremium();
             if (tokenPremium)
             {
